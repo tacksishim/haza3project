@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(135deg, #ffb84d, #ff7b00); /* تدرج برتقالي */
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* الصندوق */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* صورة هزاع */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid white;
+}
+
+/* الزر */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: white;
+  color: #ff7b00;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
